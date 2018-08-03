@@ -1,0 +1,47 @@
+body {
+  margin: 0 auto;
+}
+
+.div-page {
+  margin: 20px;
+}
+
+.selected-book {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  min-height: 196px;
+  display: flex;
+}
+
+.book-title {
+  font-weight: bold;
+}
+
+img {
+  height: 165px;
+}
+
+
+.img-display {
+  vertical-align: middle;
+  align-items:center;
+  justify-content:center;
+  display: flex;
+  width: 150px;
+}
+
+.book-details {
+  width: 100%;
+  padding-left: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  transition: all 2s;
+}
+
+a:hover {
+  color: black;
+}
